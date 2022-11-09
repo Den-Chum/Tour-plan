@@ -11,24 +11,24 @@ body {
   margin: auto;
 }
 
-.header {
+.navbar {
   background-color: #FFFFFF;
 }
-.header-top {
+.navbar-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.header__search {
+.navbar__search {
   margin-right: auto;
   margin-left: 108px;
 }
-.header-nav {
+.navbar-nav {
   background-color: #0A223D;
 }
-.header-menu {
+.navbar-menu {
   display: flex;
   justify-content: space-between;
   text-transform: uppercase;
@@ -39,7 +39,7 @@ body {
   margin: auto;
   list-style-type: none;
 }
-.header-menu__link {
+.navbar-menu__link {
   font-size: 14px;
   line-height: 18px;
   color: #FFFFFF;
