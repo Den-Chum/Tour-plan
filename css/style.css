@@ -545,6 +545,9 @@ template {
   .search {
     width: 340px;
   }
+  .hotel {
+    padding-bottom: 60px;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -574,5 +577,29 @@ template {
 @media (max-width: 576px) {
   .logo {
     width: 99px;
+  }
+  .hotel {
+    padding-bottom: 40px;
+  }
+  .hotel-wrapper {
+    justify-content: space-between;
+  }
+  .hotel-info__offer {
+    order: -1;
+    margin-left: 0;
+  }
+  .hotel-name {
+    flex-basis: 100%;
+  }
+  .stars {
+    flex-basis: 48px;
+  }
+  .rating {
+    display: none;
+  }
+}
+@media (max-width: 407px) {
+  .description {
+    max-width: 285px;
   }
 }/*# sourceMappingURL=style.css.map */
