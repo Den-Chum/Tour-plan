@@ -913,6 +913,17 @@ template {
     width: 340px;
     height: 210px;
   }
+  .reviews {
+    padding-bottom: 60px;
+  }
+  .reviews__title {
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 50px;
+  }
+  .reviews-swiper__item {
+    width: 580px;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -962,6 +973,14 @@ template {
   .subscribe {
     height: 55px;
   }
+  .reviews-swiper__item {
+    width: 480px;
+  }
+}
+@media (max-width: 620px) {
+  .reviews-swiper__item {
+    width: 450px;
+  }
 }
 @media (max-width: 576px) {
   .logo {
@@ -991,6 +1010,38 @@ template {
   }
   .rating {
     display: none;
+  }
+  .reviews {
+    padding-bottom: 50px;
+  }
+  .reviews__title {
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 42px;
+  }
+  .reviews-swiper__item {
+    width: 281px;
+    padding: 0 31px 36px;
+  }
+  .reviews-swiper__item:before {
+    display: none;
+  }
+  .reviews-swiper__item:after {
+    display: none;
+  }
+  .reviews-swiper__text {
+    width: 220px;
+  }
+  .reviews-swiper__button {
+    top: 45px;
+  }
+  .reviews-swiper__button--prev {
+    left: 50%;
+    margin-left: -80px;
+  }
+  .reviews-swiper__button--next {
+    right: 50%;
+    margin-right: -80px;
   }
 }
 @media (max-width: 407px) {
