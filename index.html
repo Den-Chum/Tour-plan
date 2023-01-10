@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
+
   <body>
     <header class="navbar">
       <div class="container">
@@ -158,49 +159,53 @@
         </div>
         <!-- /.hotel-info -->
         <div class="hotel-grid hotel__grid">
-          <div class="swiper">
+          <div class="swiper hotel-swiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide">
+              <div class="swiper-slide hotel-swiper__item">
                 <img
-                  class="swiper-slide__img"
+                  class="hotel-swiper__img"
                   src="/img/slider-1.jpg"
                   alt="swiper-img"
                 />
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slide hotel-swiper__item">
                 <img
-                  class="swiper-slide__img"
+                  class="hotel-swiper__img"
                   src="/img/slider-2.jpg"
                   alt="swiper-img"
                 />
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slide hotel-swiper__item">
                 <img
-                  class="swiper-slide__img"
+                  class="hotel-swiper__img"
                   src="/img/slider-3.jpg"
                   alt="swiper-img"
                 />
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slide hotel-swiper__item">
                 <img
-                  class="swiper-slide__img"
+                  class="hotel-swiper__img"
                   src="/img/slider-4.jpg"
                   alt="swiper-img"
                 />
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slide hotel-swiper__item">
                 <img
-                  class="swiper-slide__img"
+                  class="hotel-swiper__img"
                   src="/img/slider-5.jpg"
                   alt="swiper-img"
                 />
               </div>
             </div>
             <!-- /.swiper-wrapper -->
-            <div class="swiper-button swiper-button--prev"></div>
-            <div class="swiper-button swiper-button--next"></div>
+            <button
+              class="hotel-swiper__button hotel-swiper__button--prev"
+            ></button>
+            <button
+              class="hotel-swiper__button hotel-swiper__button--next"
+            ></button>
           </div>
-          <!-- /.swiper -->
+          <!-- /.hotel-swiper -->
           <div class="booking-container booking-container__media">
             <div class="booking">
               <div class="booking__wrapper">
@@ -283,6 +288,330 @@
           <button class="subscribe__button">Send</button>
         </form>
       </div>
+    </section>
+    <section class="reviews">
+      <div class="container">
+        <h2 class="reviews__title">What people think about us</h2>
+        <div class="swiper reviews-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="reviews-swiper__item">
+                <div class="reviews-swiper__profile">
+                  <img
+                    src="/img/reviews-megan-fox.jpg"
+                    alt="Avatar: Megan Fox"
+                    class="reviews-swiper__avatar"
+                  />
+                  <h3 class="reviews-swiper__name">Megan Fox</h3>
+                  <span class="reviews-swiper__date">Stayed 18 Nov, 2019</span>
+                  <div class="reviews-swiper__rating">
+                    <div class="stars-wrapper">
+                      <img
+                        src="/img/Star.svg"
+                        class="stars__icon"
+                        alt="Icon: Star"
+                      />
+                      <img
+                        src="/img/Star.svg"
+                        class="stars__icon"
+                        alt="Icon: Star"
+                      />
+                      <img
+                        src="/img/Star.svg"
+                        class="stars__icon"
+                        alt="Icon: Star"
+                      />
+                      <img
+                        src="/img/Star.svg"
+                        class="stars__icon"
+                        alt="Icon: Star"
+                      />
+                      <img
+                        src="/img/Star.svg"
+                        class="stars__icon"
+                        alt="Icon: Star"
+                      />
+                    </div>
+                    <!-- /.stars-wrapper -->
+                  </div>
+                  <!-- /.reviews-swiper__rating -->
+                </div>
+                <!-- /.reviews-swiper__profile -->
+                <p class="reviews-swiper__text">
+                  It was very nice hotel with cleanliness. Staff behavior was
+                  good and polite. They welcome us very well. Issue was only
+                  that Lift was not in working and we were allotted to 3rd floor
+                  and amenities articles were in corner of gallery which were
+                  giving bad feeling. Breakfast was good and support of the
+                  staff was also very nice. Location is not good as per
+                  atmosphere, it is very nearby most of the popular places but
+                  self location in a narrow street is not good. Overall it was a
+                  good experience and could recommend.
+                </p>
+              </div>
+              <!-- /.reviews-swiper__item -->
+            </div>
+            <!-- /.swiper-slide -->
+            <div class="swiper-slide">
+              <div class="reviews-swiper__item">
+                <div class="reviews-swiper__profile">
+                  <img
+                    src="/img/reviews-avatar-2.jpg"
+                    alt="Avatar: Elisabet Olcen"
+                    class="reviews-swiper__avatar"
+                  />
+                  <h3 class="reviews-swiper__name">Elisabet Olcen</h3>
+                  <span class="reviews-swiper__date">Stayed 14 Oct, 2019</span>
+                  <div class="reviews-swiper__rating">
+                    <div class="stars-wrapper">
+                      <img
+                        src="/img/Star.svg"
+                        class="stars__icon"
+                        alt="Icon: Star"
+                      />
+                      <img
+                        src="/img/Star.svg"
+                        class="stars__icon"
+                        alt="Icon: Star"
+                      />
+                      <img
+                        src="/img/Star.svg"
+                        class="stars__icon"
+                        alt="Icon: Star"
+                      />
+                      <img
+                        src="/img/Star.svg"
+                        class="stars__icon"
+                        alt="Icon: Star"
+                      />
+                      <img
+                        src="/img/Star.svg"
+                        class="stars__icon"
+                        alt="Icon: Star"
+                      />
+                    </div>
+                    <!-- /.stars-wrapper -->
+                  </div>
+                  <!-- /.reviews-swiper__rating -->
+                </div>
+                <!-- /.reviews-swiper__profile -->
+                <p class="reviews-swiper__text">
+                  It was very nice hotel with cleanliness. Staff behavior was
+                  good and polite. They welcome us very well. Issue was only
+                  that Lift was not in working and we were allotted to 3rd floor
+                  and amenities articles were in corner of gallery which were
+                  giving bad feeling. Breakfast was good and support of the
+                  staff was also very nice. Location is not good as per
+                  atmosphere, it is very nearby most of the popular places but
+                  self location in a narrow street is not good. Overall it was a
+                  good experience and could recommend. Lorem ipsum dolor sit
+                  amet consectetur adipisicing elit. Perspiciatis labore
+                  consequuntur laudantium obcaecati ad! Necessitatibus beatae et
+                  quam soluta ea quasi possimus impedit expedita minus.
+                </p>
+              </div>
+              <!-- /.reviews-swiper__item -->
+            </div>
+            <!-- /.swiper-slide -->
+            <div class="swiper-slide">
+              <div class="reviews-swiper__item">
+                <div class="reviews-swiper__profile">
+                  <img
+                    src="/img/reviews-avatar-3.jpg"
+                    alt="Avatar: Chris Hemsworth"
+                    class="reviews-swiper__avatar"
+                  />
+                  <h3 class="reviews-swiper__name">Chris Hemsworth</h3>
+                  <span class="reviews-swiper__date">Stayed 08 Sep, 2018</span>
+                  <div class="reviews-swiper__rating">
+                    <div class="stars-wrapper">
+                      <img
+                        src="/img/Star.svg"
+                        class="stars__icon"
+                        alt="Icon: Star"
+                      />
+                      <img
+                        src="/img/Star.svg"
+                        class="stars__icon"
+                        alt="Icon: Star"
+                      />
+                      <img
+                        src="/img/Star.svg"
+                        class="stars__icon"
+                        alt="Icon: Star"
+                      />
+                      <img
+                        src="/img/Star.svg"
+                        class="stars__icon"
+                        alt="Icon: Star"
+                      />
+                      <img
+                        src="/img/Star.svg"
+                        class="stars__icon"
+                        alt="Icon: Star"
+                      />
+                    </div>
+                    <!-- /.stars-wrapper -->
+                  </div>
+                  <!-- /.reviews-swiper__rating -->
+                </div>
+                <!-- /.reviews-swiper__profile -->
+                <p class="reviews-swiper__text">
+                  It was very nice hotel with cleanliness. Staff behavior was
+                  good and polite. They welcome us very well. Issue was only
+                  that Lift was not in working and we were allotted to 3rd floor
+                  and amenities articles were in corner of gallery which were
+                  giving bad feeling. Breakfast was good and support of the
+                  staff was also very nice. Location is not good as per
+                  atmosphere, it is very nearby most of the popular places but
+                  self location in a narrow street is not good. Overall it was a
+                  good experience and could recommend. Lorem ipsum dolor sit
+                  amet consectetur adipisicing elit. Perspiciatis labore
+                  consequuntur laudantium obcaecati ad! Necessitatibus beatae et
+                  quam soluta ea quasi possimus impedit expedita minus. Lorem
+                  ipsum dolor, sit amet consectetur adipisicing elit. Impedit
+                  labore odio aperiam sapiente, fuga dolorem et illum quam
+                  similique earum, ullam, voluptas vero hic. Enim libero
+                  dignissimos eos debitis delectus, officiis, nostrum accusamus
+                  voluptate non perspiciatis id magnam provident. Temporibus.
+                </p>
+              </div>
+              <!-- /.reviews-swiper__item -->
+            </div>
+            <!-- /.swiper-slide -->
+            <div class="swiper-slide">
+              <div class="reviews-swiper__item">
+                <div class="reviews-swiper__profile">
+                  <img
+                    src="/img/reviews-avatar-4.jpg"
+                    alt="Avatar: Tom Hardi"
+                    class="reviews-swiper__avatar"
+                  />
+                  <h3 class="reviews-swiper__name">Tom Hardi</h3>
+                  <span class="reviews-swiper__date">Stayed 19 Jul, 2021</span>
+                  <div class="reviews-swiper__rating">
+                    <div class="stars-wrapper">
+                      <img
+                        src="/img/Star.svg"
+                        class="stars__icon"
+                        alt="Icon: Star"
+                      />
+                      <img
+                        src="/img/Star.svg"
+                        class="stars__icon"
+                        alt="Icon: Star"
+                      />
+                      <img
+                        src="/img/Star.svg"
+                        class="stars__icon"
+                        alt="Icon: Star"
+                      />
+                      <img
+                        src="/img/Star.svg"
+                        class="stars__icon"
+                        alt="Icon: Star"
+                      />
+                      <img
+                        src="/img/Star.svg"
+                        class="stars__icon"
+                        alt="Icon: Star"
+                      />
+                    </div>
+                    <!-- /.stars-wrapper -->
+                  </div>
+                  <!-- /.reviews-swiper__rating -->
+                </div>
+                <!-- /.reviews-swiper__profile -->
+                <p class="reviews-swiper__text">
+                  It was very nice hotel with cleanliness. Staff behavior was
+                  good and polite. They welcome us very well. Issue was only
+                  that Lift was not in working and we were allotted to 3rd floor
+                  and amenities articles were in corner of gallery which were
+                  giving bad feeling. Breakfast was good and support of the
+                  staff was also very nice. Location is not good as per
+                  atmosphere, it is very nearby most of the popular places but
+                  self location in a narrow street is not good. Overall it was a
+                  good experience and could recommend. Lorem ipsum dolor sit
+                  amet consectetur adipisicing elit. Perspiciatis labore
+                  consequuntur laudantium obcaecati ad! Necessitatibus beatae et
+                  quam soluta ea quasi possimus impedit expedita minus. Lorem
+                  ipsum dolor, sit amet consectetur adipisicing elit. Impedit
+                  labore odio aperiam sapiente, fuga dolorem et illum quam
+                  similique earum, ullam, voluptas vero hic. Enim libero
+                  dignissimos eos debitis delectus, officiis, nostrum accusamus
+                  voluptate non perspiciatis id magnam provident. Temporibus.
+                </p>
+              </div>
+              <!-- /.reviews-swiper__item -->
+            </div>
+            <!-- /.swiper-slide -->
+            <div class="swiper-slide">
+              <div class="reviews-swiper__item">
+                <div class="reviews-swiper__profile">
+                  <img
+                    src="/img/reviews-avatar-5.jpg"
+                    alt="Avatar: Margot Robbie"
+                    class="reviews-swiper__avatar"
+                  />
+                  <h3 class="reviews-swiper__name">Margot Robbie</h3>
+                  <span class="reviews-swiper__date">Stayed 24 Dec, 2021</span>
+                  <div class="reviews-swiper__rating">
+                    <div class="stars-wrapper">
+                      <img
+                        src="/img/Star.svg"
+                        class="stars__icon"
+                        alt="Icon: Star"
+                      />
+                      <img
+                        src="/img/Star.svg"
+                        class="stars__icon"
+                        alt="Icon: Star"
+                      />
+                      <img
+                        src="/img/Star.svg"
+                        class="stars__icon"
+                        alt="Icon: Star"
+                      />
+                      <img
+                        src="/img/Star.svg"
+                        class="stars__icon"
+                        alt="Icon: Star"
+                      />
+                      <img
+                        src="/img/Star.svg"
+                        class="stars__icon"
+                        alt="Icon: Star"
+                      />
+                    </div>
+                    <!-- /.stars-wrapper -->
+                  </div>
+                  <!-- /.reviews-swiper__rating -->
+                </div>
+                <!-- /.reviews-swiper__profile -->
+                <p class="reviews-swiper__text">
+                  It was very nice hotel with cleanliness. Staff behavior was
+                  good and polite. They welcome us very well. Issue was only
+                  that Lift was not in working and we were allotted to 3rd floor
+                  and amenities articles were in corner of gallery which were
+                  giving bad feeling. Breakfast was good and support of the
+                  staff was also very nice.
+                </p>
+              </div>
+              <!-- /.reviews-swiper__item -->
+            </div>
+            <!-- /.swiper-slide -->
+          </div>
+          <!-- /.swiper-wrapper -->
+          <button
+            class="reviews-swiper__button reviews-swiper__button--prev"
+          ></button>
+          <button
+            class="reviews-swiper__button reviews-swiper__button--next"
+          ></button>
+        </div>
+        <!-- /reviews-swiper -->
+      </div>
+      <!-- /.container -->
     </section>
     <script src="/js/swiper-bundle.min.js"></script>
     <script src="/js/main.js"></script>
